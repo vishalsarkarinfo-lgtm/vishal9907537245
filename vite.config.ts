@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: process.env.VITE_BASE_PATH || '/',
+    base: process.env.VITE_BASE_PATH || '/vishal9907537245/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
